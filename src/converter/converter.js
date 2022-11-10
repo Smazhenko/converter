@@ -1,6 +1,6 @@
 import React from "react";
-import {getWell} from '../api/api'
-import '../converter/style.css'
+import {getWell} from '../api'
+import './style.css'
 
 class Converter extends React.Component{
 constructor(props){
